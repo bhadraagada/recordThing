@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+screen_recording_sharing_app-main
+screen_recording_sharing_app-main.zip
