@@ -1,6 +1,7 @@
 import { ICONS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { DropDownList } from "./dropdown-list";
 
 interface HeaderProps {
   subHeader: string;
@@ -15,7 +16,7 @@ export const Header = ({ subHeader, title, userImg }: HeaderProps) => {
         <div className="details">
           {userImg && (
             <Image
-              src={userImg || "/assets/images/dummy.jpg"}
+              src={userImg}
               alt="user"
               width={66}
               height={66}
@@ -56,9 +57,8 @@ export const Header = ({ subHeader, title, userImg }: HeaderProps) => {
             height={16}
           />
 
-          {/* TODO: Implement DropDownList */}
-          {/* <DropDownList /> */} 
         </div>
+          <DropDownList /> 
       </section>
     </header>
   );

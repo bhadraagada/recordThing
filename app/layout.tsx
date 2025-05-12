@@ -9,8 +9,8 @@ const geistKarla = Karla({
 });
 
 export const metadata: Metadata = {
-  title: "recordThing",
-  description: "A Screen Sharing App",
+  title: "recordThing - Screen Recording Made Simple",
+  description: "A powerful and intuitive screen recording application that lets you capture, edit and share your screen with ease. Perfect for tutorials, presentations, and demonstrations.",
   icons: {
     icon: "/assets/icons/logo.svg",
   },
