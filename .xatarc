@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Bhadra-s-workspace-mo3drp.ap-southeast-2.xata.sh/db/recordThing",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

@@ -1,9 +1,14 @@
 "use client";
 
+import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
 
 const SignIn = () => {
+  const handleSignIn = async () => {
+    return await authClient.signIn.social({ provider: "google" });
+  };
+
   return (
     <main className="sign-in">
       <aside className="testimonial">
@@ -61,11 +66,11 @@ const SignIn = () => {
             <h1>recordThing</h1>
           </Link>
           <p>
-            Create and share your very first <span>recordThing video</span> in no
-            time!
+            Create and share your very first <span>recordThing video</span> in
+            no time!
           </p>
 
-          <button onClick={() => {}}>
+          <button onClick={handleSignIn}>
             <Image
               src="/assets/icons/google.svg"
               alt="Google Icon"

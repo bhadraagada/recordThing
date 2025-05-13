@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xata.io/client": "^0.30.1",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "pg": "^8.16.0",
     "better-auth": "^1.2.7",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.31.1",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
